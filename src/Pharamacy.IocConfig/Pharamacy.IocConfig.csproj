@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pharamacy.Common\Pharamacy.Common.csproj" />
+    <ProjectReference Include="..\Pharamacy.DataLayer\Pharamacy.DataLayer.csproj" />
+    <ProjectReference Include="..\Pharamacy.Entities\Pharamacy.Entities.csproj" />
+    <ProjectReference Include="..\Pharamacy.ViewModels\Pharamacy.ViewModels.csproj" />
+    <ProjectReference Include="..\Pharamacy.Services\Pharamacy.Services.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.2.6" />
+    <PackageReference Include="Microsoft.Extensions.Caching.SqlServer" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0" />
+  </ItemGroup>
+</Project>
